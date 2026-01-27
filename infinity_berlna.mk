@@ -20,6 +20,20 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := motorola edge (2021)
 
+TARGET_BOOT_ANIMATION_RES := 1080
+INFINITY_MAINTAINER := Viaan_Thakur
+INFINITY_BUILD_TYPE := UNOFFICIAL
+TARGET_SUPPORTS_BLUR := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_HAS_UDFPS := false
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.product.marketname="Motorola Moto Edge (2021)" \
+    ro.infinity.soc="Snapdragon 778G 5G" \
+    ro.infinity.battery="5000 mAh" \
+    ro.infinity.display="1080 x 2400, 120 Hz" \
+    ro.infinity.camera="108MP + 8MP + 2MP + 30MP"
+
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
